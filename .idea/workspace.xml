@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff192c06-568a-4478-ad23-e5210b301555" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/OwnerSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/Address.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/Address.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/AlienFactory.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/AlienFactory.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/AlienOwnership.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/AlienOwnership.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/Context.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/Context.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/Counters.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/Counters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/ERC165.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/ERC165.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/ERC721.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/ERC721.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/EnumerableMap.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/EnumerableMap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/EnumerableSet.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/EnumerableSet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/IERC165.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/IERC165.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/IERC721.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/IERC721.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/IERC721Enumerable.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/IERC721Enumerable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/IERC721Metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/IERC721Metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/IERC721Receiver.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/IERC721Receiver.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/Migrations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/Ownable.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/Ownable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/SafeMath.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/SafeMath.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contracts/Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/getWeb3.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/getWeb3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/AlienOwnership.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/AlienOwnership.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truffle-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/truffle-config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1p7yvD0YyUxrhIXkyQrsHN7SrcL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\ThePe_1u2\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\203.5981.135\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff192c06-568a-4478-ad23-e5210b301555" name="Default Changelist" comment="" />
+      <created>1614548651866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614548651866</updated>
+      <workItem from="1614548652980" duration="14031000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
