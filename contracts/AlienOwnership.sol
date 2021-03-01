@@ -12,14 +12,16 @@ contract AlienOwnership is AlienFactory, ERC721 {
     uint purchaseCost = 0.0005 ether;
     uint nonce = 0;
 
-    constructor() public ERC721("Alien", "ALN") {}
+    constructor() public ERC721("Alien", "ALN") {
+        _setBaseURI()
+    }
 
     function mintAlien(uint amount) external onlyOwner {
         for (uint i = 0; i < amount; i++) {
             _tokenIds.increment();
             uint256 newItemId = _tokenIds.current();
             _mint(address(this), newItemId);
-            //_setTokenURI(newItemId, tokenURI);
+            _setTokenURI(newItemId, tokenURI);
         }
     }
 
