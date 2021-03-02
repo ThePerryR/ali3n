@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+const getGW = (str) => str.replace('ipfs://', 'https://gateway.pinata.cloud/ipfs/')
+
 class AlienCard extends Component {
   constructor () {
     super()
@@ -10,21 +12,25 @@ class AlienCard extends Component {
   }
 
   async componentDidMount () {
-    const res = await fetch(this.props.uri)
+    console.log(this.props.uri)
+    const res = await fetch(getGW(this.props.uri))
     const json = await res.json()
-    console.log(111, json)
     this.setState({ ...json, loading: false })
   }
 
   render () {
-    console.log('ppp', this.props)
     if (this.state.loading) {
       return <div>Loading...</div>
     }
     return (
-      <div>
-        <div>{this.state.name}</div>
-        <img alt={this.state.name} style={{ width: 200 }} src={this.state.image}/>
+      <div style={{ marginLeft: 8, marginRight: 8, marginBottom: 16 }}>
+        <video loop alt={this.state.name} style={{ width: 80 }} src={getGW(this.state.image)}/>
+        {this.props.open &&
+        <div style={{ width: '100vw', height: '100vh', position: 'fixed', top: 0, left: 0, background: 'white' }}>
+          <div onClick={this.props.close}>Close</div>
+          <div>{this.state.name}</div>
+        </div>
+        }
       </div>
     )
   }

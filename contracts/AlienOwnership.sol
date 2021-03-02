@@ -13,7 +13,7 @@ contract AlienOwnership is AlienFactory, ERC721 {
     uint nonce = 0;
 
     constructor() public ERC721("Alien", "ALN") {
-        _setBaseURI("https://gateway.pinata.cloud/ipfs/");
+        _setBaseURI("ipfs://");
     }
 
     function mintAlien(uint amount, string memory _tokenURI) external onlyOwner {

@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 
 import AlienCard from './AlienCard'
 
-function Overlay ({ myTokens, buyTokens }) {
+function Overlay ({ myAliens, buyTokens }) {
   const [amount, setAmount] = useState(0)
+  const [selectedAlien, setSelectedAlien] = useState(null)
   return (
     <div
       style={{
@@ -13,9 +14,16 @@ function Overlay ({ myTokens, buyTokens }) {
       }}>
       <div>
         <div>Your inventory:</div>
-        {myTokens.map(token => (
-          <AlienCard {...token}/>
-        ))}
+        <div style={{ width: 320, display: 'flex', flexWrap: 'wrap' }}>
+          {myAliens.map(token => (
+            <div key={token.id} onClick={() => setSelectedAlien(token.id)}>
+              <AlienCard
+                {...token} open={selectedAlien === token.id}
+                close={() => setSelectedAlien(null)}
+              />
+            </div>
+          ))}
+        </div>
       </div>
       <div>
         <div>Buy a Capsule</div>
