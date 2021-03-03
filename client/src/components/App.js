@@ -12,9 +12,12 @@ class App extends Component {
   componentDidMount = async () => {
     try {
       // get an instance of the contract
+      console.log(1)
       const web3 = await getWeb3()
+      console.log(2)
       const networkId = await web3.eth.net.getId()
       const accounts = await web3.eth.getAccounts()
+      console.log(3)
       const deployedNetwork = AlienOwnershipContract.networks[networkId]
       const contractAddress = deployedNetwork && deployedNetwork.address
       const contract = new web3.eth.Contract(AlienOwnershipContract.abi, contractAddress, { from: accounts[0] })
