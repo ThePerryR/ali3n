@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff192c06-568a-4478-ad23-e5210b301555" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/public/models/test.glb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/Address.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/Address.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/AlienFactory.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/AlienFactory.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/sections/BabylonLayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sections/BabylonLayer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/contracts/AlienOwnership.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/AlienOwnership.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/Context.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/Context.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/Counters.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/Counters.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/ERC165.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/ERC165.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/ERC721.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/ERC721.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/EnumerableMap.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/EnumerableMap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/EnumerableSet.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/EnumerableSet.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/IERC165.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/IERC165.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/IERC721.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/IERC721.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/IERC721Enumerable.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/IERC721Enumerable.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/IERC721Metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/IERC721Metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/IERC721Receiver.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/IERC721Receiver.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/Migrations.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/Ownable.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/Ownable.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/SafeMath.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/SafeMath.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contracts/Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contracts/Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/models/capsule.glb" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/models/capsule.glb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +38,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ali3n\client\public" />
+      <recent name="D:\ali3n\client\src\models" />
       <recent name="$PROJECT_DIR$/client/src/components" />
     </key>
   </component>
@@ -68,6 +59,9 @@
       <workItem from="1614700050858" duration="2526000" />
       <workItem from="1614783473829" duration="3984000" />
       <workItem from="1614787475784" duration="4663000" />
+      <workItem from="1614868614562" duration="1214000" />
+      <workItem from="1615217389112" duration="11000" />
+      <workItem from="1615498801966" duration="1723000" />
     </task>
     <servers />
   </component>
@@ -85,11 +79,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="505" y="252" key="search.everywhere.popup" timestamp="1614708248438">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state x="505" y="252" key="search.everywhere.popup/0.25.1680.1025@0.25.1680.1025" timestamp="1614708248438" />
   </component>
 </project>
